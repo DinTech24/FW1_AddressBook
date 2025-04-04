@@ -1,0 +1,396 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Nunito;
+}
+
+body{
+    background-color: #f5e7e7;
+    overflow-x: hidden;
+}
+
+/* Access Pages */
+
+.accessPageHead{
+    background-color: #a52a2a;
+    color: white;
+    top:0px;
+    z-index: 1;
+    position: sticky;
+    height: 8vh;
+    font-size: 24px;
+}
+
+.accessPageHead a{
+    color: white;
+    text-decoration: none;
+}
+
+.accessBodyMainDiv{
+    height: 100%;
+}
+
+.addressLogoMainDiv{
+    background-color: #b33535;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.addressLoginMainDiv{
+    background-color: #b33535;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.addressLogoDiv{
+    display: flex;
+    justify-content: center;
+    width: 18vw;
+}
+
+.accessNames{
+    text-decoration: none;
+    color: white;
+}
+
+.accessMainDiv{
+    background-color: white;
+    width:30vw;
+    border-radius:0px 10px 10px 0px;
+}
+
+.loginMainDiv{
+    background-color: white;
+    width:30vw;
+    border-radius:0px 10px 10px 0px;
+}
+
+.inputStyle{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 26vw;
+    margin-bottom: 7vh;
+}
+
+.inputStyle:focus{
+    outline: none;
+}
+
+.accessHeading{
+    font-size: 20px;
+    margin: 5vh;
+    color: #b33535;
+    font-weight: bold;
+}
+
+.accessButton{
+    width: 20vw;
+    border: 1px solid #9c2828;
+    color: white;
+    border-radius: 5px;
+    background-color: #9c2828;
+    margin-bottom: 5vh;
+}
+
+.registerClass{
+    text-decoration: none;
+}
+
+
+.profileBox{
+    background-color: white;
+    width: 10vw;
+}
+
+.createContactbutton{
+    font-size: 12px;
+    background-color: #b33535;
+    box-shadow: 1px 1px 1px black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.profileUserName{
+    color: #b33535;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.userAddedContacts{
+    background-color: white;
+    width: 100%;
+}
+
+.userContactsHead{
+    padding-left: 8vw;
+    border-bottom: 1px solid #dddcdc;
+}
+
+.userContactsHead *{
+    font-weight: bold;
+    font-size: 13px;
+    color: #b33535;
+}
+
+.userContactsName{
+    margin-right: 7vw;
+}
+
+.userContactsEmail{
+    margin-right: 15vw;
+}
+
+.eachContact{
+    border-bottom: 1px solid #dddcdc;
+    align-items: center;
+    margin-bottom:3vh;
+}
+
+.contactProfileImage{
+    border-radius: 40px;
+}
+
+.eachContactName{
+    width: 10vw;
+    text-align: left;
+}
+
+.eachContactMail{
+    width: 20vw;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.eachContactNumber{
+    width: 8vw;
+    text-align: left;
+}
+
+.eachContactButton{
+    margin-left: 2vw;
+    border: 1px solid #b33535;
+    background-color: white;
+    color: #b33535;
+    border-radius: 20px;
+    width: 6vw;
+}
+
+.eachContactButton:hover{
+    margin-left: 2vw;
+    border: 1px solid #b33535;
+    background-color: #c57777;
+    color: white;
+    border-radius: 20px;
+    width: 6vw;
+}
+
+.registerWarning{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(25, 69, 136);
+    font-weight: bold;
+}
+
+/* Modal */
+
+.UploadModal{
+    background-color: #DAEEF7;
+    height: 50.4vh;
+    width: 70vw;
+}
+
+.modalUploadBody{
+    background-color: white;
+    height: 50vh;
+    width: 94%;
+    padding-left: 3vw;
+}
+
+.editModal{
+    background-color: #f7dada;
+    height: 85.4vh;
+    width: 55vw;
+}
+
+.editMainModal{
+    background-color: #f7dada;
+    width: 55vw;
+}
+
+.modalMainBody{
+    background-color: white;
+    height: 85vh;
+    width: 75%;
+}
+.modalEditMainBody{
+    background-color: white;
+    width: 75%;
+}
+
+.editModalContent{
+    width: 80%;
+}
+
+.contactModalHead{
+    background-color: #f7dada;
+    color: #b33535;
+    font-size: 23px;
+    font-weight: 700;
+    width: 70%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.contactEditModalHead{
+    background-color: #f7dada;
+    color: #b33535;
+    font-size: 23px;
+    font-weight: 700;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.modalProfileHead{
+    color: #b33535;
+    width: 8vw;
+    text-align: left;
+    padding-left: 2vw;
+    margin-left: 5vw;
+    font-weight: bold;
+}
+
+.modalColon{
+    width: 5vw;
+    text-align: center;
+}
+
+.profileEachDataDiv{
+    display: flex;
+    margin-bottom: 3vh;
+}
+
+
+.modalProfileData{
+    width: 20vw;
+    text-align: left;
+}
+
+.modalBtnClose{
+    font-size: 18px;
+    background-color: #b33535;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    width: 10vw;
+    border-radius: 15px;
+}
+
+.personalDetailsHead{
+    color: #b33535;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #b33535;
+}
+
+.editContactPersonalInput{
+    border: none;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    border-top: #dddcdc 1px solid;
+}
+
+.nameFields{
+    width: 10vw;
+}
+
+.editContactPersonalInput:focus{
+    outline: none;
+}
+
+.editContactPersonalInputFile{
+    border: none;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    border-top: #dddcdc 1px solid;
+    width: 40%;
+}
+
+.createContactFields{
+    font-weight: bold;
+    color: #b33535;
+}
+
+.fixWidth{
+    width: 7vw;
+}
+
+.changePosition{
+    margin-left: 12vw;
+}
+
+.logoutButton{
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+.pdfPrintButton{
+    border: none;
+    background-color: transparent;
+}
+
+.ssoButton{
+    border: none;
+    background-color: transparent;
+}
+
+.selectPick{
+    height: 8vh;
+}
+
+.modalUploadClose{
+    color: #b33535;
+    border: #b33535 1px solid;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.templateButton{
+    font-size: 12px;
+}
+
+.uploadFileHead{
+    font-size: 20px;
+    font-weight: bold;
+    color:#b33535;
+    border-bottom:2px solid #b33535;
+}
+
+.modalBtnUpload{
+    font-size: bold;
+    color: white;
+    background-color: #b33535;
+    border: transparent;
+}
+
+.uploadText{
+    font-size: 14px;
+    font-weight: bold;
+    color: #b33535;
+}
+
+#disabledExcel{
+    display: none;
+}
+
+.fileUpload{
+    width: 15vw;
+}
+
+#uploadWarning{
+    color: crimson;
+    font-size: 12px;
+    font-weight: bold;
+}
